@@ -1,0 +1,36 @@
+<html>
+    <head>
+       <!-- Referencia al BOOSTRAP 4 -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <!-- Referencia a la libreria de JQUERY --> 
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <!-- Referencia al API de GOOGLE MAPS -->
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyAHYHrUloAvMiH_vdDWq-KiZXfkhwHfMv8"></script>
+        <script src="js/gmaps.js"></script>
+        <link rel="stylesheet" href="./style/style.css">
+
+    </head>
+
+    <body>
+         <!-- titulo de la pagina -->
+ <div class="w-100 " id="header">
+  <img src="img/icono.png" class="icono">
+    <h1 >Implementación de GMaps</h1>
+    <p>Toque 2 puntos para saber la distancia y el tiempo de recorrido</p>
+
+    
+ 
+    <div class="col-12 md-12 mt-5 pt-5 ">
+      <!--Despliega la informacion final-->
+      <p id="distancia" class="text-dark"></p>
+      <p id="tiempo" class="text-dark"></p>
+    </div>
+  </div>
+ <!-- div para mostrar el mapa  -->
+   <div id="map" class="map"></div> 
+
+  <!-- Referencia al js necesario para renderizar lo que se busca -->
+  <script src="js/maps.js"></script>
+
+    </body>
+</html>
