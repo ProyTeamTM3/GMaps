@@ -1,0 +1,31 @@
+#map {
+    width: 800px;
+    height: 500px;
+    margin:0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    padding:20px;
+    height: 115px;
+    background: #561616;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+#header p{
+    color:white
+}
+
+.map{
+    box-shadow: 5px 5px 10px #585656;
+}
+
+.icono{
+    float: right;
+    width: 5%;
+    height: auto;
+}
